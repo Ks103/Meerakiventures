@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>MV</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="startup" name="keywords">
+    <meta content="startup" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Custom Stylesheet -->
+    <style>
+        .custom-heading {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        .card {
+            border-radius: 15px; /* Rounded corners */
+            transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s, color 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.02); /* Less hover scale */
+            background-color: #add8e6; /* Light blue color */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            color: black; /* Change text color to black on hover */
+        }
+        .card:hover .card-text {
+            color: black; /* Change text color to black on hover */
+        }
+        .step-card {
+            background-color: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 15px; /* Rounded corners */
+            padding: 1rem;
+            margin-bottom: 1rem;
+            transition: background-color 0.3s, transform 0.3s, color 0.3s;
+        }
+        .step-card:nth-child(odd) {
+            background-color: #e9ecef; /* Different color for odd steps */
+        }
+        .step-card:hover {
+            background-color: #add8e6; /* Light blue color */
+            color: black; /* Change text color to black on hover */
+            transform: scale(1.02); /* Less hover scale */
+        }
+        .step-card:hover .step-number {
+            color: black; /* Change step number color to black on hover */
+        }
+        .step-number {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
+            <a href="index.html" class="navbar-brand p-0">
+                <h1 class="m-0"><img class="" src="img/Frame 2.png" alt="Image" style="width: 70px;">Meraakiventures</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="index.html" class="nav-item nav-link">Services</a>
+                    <a href="about.html" class="nav-item nav-link active">Registration</a>
+                    <a href="service.html" class="nav-item nav-link">Compliance</a>
+                    <a href="team.html" class="nav-item nav-link">About Us</a>
+                    <a href="testimonial.html" class="nav-item nav-link">Testimonial</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 90px;">
+            <div class="row py-5">
+                <div class="col-12 pt-lg-5 mt-lg-5 text-center">
+                    <h1 class="display-4 text-white animated zoomIn">GST Registration</h1>
+                    <a href="about.html" class="h5 text-white">Registration</a>
+                    <i class="far fa-circle text-white px-2"></i>
+                    <a href="service.html" class="h5 text-white">GST Registration</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Registration Criteria Start -->
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="mb-4 custom-heading">What is Included In Our Package?</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <p class="card-text">✔ GST Certificate with ARN and GSTIN Number</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <p class="card-text">✔ GST HSN Codes with Rates</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <p class="card-text">✔ GST Invoice Formats </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <p class="card-text">✔ GST Return Filing Software </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <p class="card-text">✔ GST Invoicing software </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Registration Criteria End -->
+
+    <!-- Registration Process Start -->
+    <!-- IEC Registration Process Start -->
+    <div class="container py-5">
+        <h2 class="mb-4 custom-heading">GST Registration Process</h2>
+        <div class="row">
+            <div class="col-12 mb-4">
+                <div class="step-card">
+                    <div class="step-number">Elimination of Multiple Taxes</div>
+                    <p>One of the advantages of GST is the end of different circuitous duties that existed before. Such a significant number of duties have been supplanted. Taxes like excise, CENVAT, sales tax, Service tax, octroi, turnover tax, and so forth are not relevant anymore and all those have come under common tax called GST.</p>
+                </div>
+            </div>
+            <div class="col-12 mb-4">
+                <div class="step-card">
+                    <div class="step-number">Saving More Money</div>
+                    <p>GST applicability has brought about the elimination of double charging in the system for a typical man. Through this, the cost of goods and services has decreased & helped the basic man saving more money.</p>
+                </div>
+            </div>
+            <div class="col-12 mb-4">
+                <div class="step-card">
+                    <div class="step-number">Ease of Business</div>
+                    <p>GST brought the idea of “One Nation One Tax”. That undesirable rivalry that existed before among the States has profited organizations wishing to do interstate business.</p>
+                </div>
+            </div>
+            <div class="col-12 mb-4">
+                <div class="step-card">
+                    <div class="step-number">Cascading Effect Reduction</div>
+                    <p>From assembling to utilization, GST is pertinent at all stages. It is giving tax credit advantages at each stage in the chain. In the prior situation, at each stage, the margin used to get added and tax was paid on the entire sum. Under GST the organizations are taking advantage of Input Tax Credit and tax is being paid on the measure of value addition only. GST has diminished the cascading effect of tax thereby reducing the cost of the product.</p>
+                </div>
+            </div>
+            <div class="col-12 mb-4">
+                <div class="step-card">
+                    <div class="step-number">More Employment</div>
+                    <p>Because GST has diminished the cost of products, the demand, for few – if not all, products have extended. With the expansion in demand, to meet the expansion in supply, the work diagram has started going up.</p>
+                </div>
+            </div>
+            <div class="col-12 mb-4">
+                <div class="step-card">
+                    <div class="step-number">Increase in GDP</div>
+                    <p>The higher the demand, the higher will be the production. This concludes in a higher Gross Domestic Product (GDP).</p>
+                </div>
+            </div>
+            <div class="col-12 mb-4">
+                <div class="step-card">
+                    <div class="step-number">Reduction in Tax Evasion</div>
+                    <p>Goods and services tax is a single tax that contains multiple earlier taxes and that incorporate the system efficient with some chances of corruption and Tax Evasion.</p>
+                </div>
+            </div>
+            <div class="col-12 mb-4">
+                <div class="step-card">
+                    <div class="step-number">More Competitive Product</div>
+                    <p>Manufacturing has become more aggressive with GST eliminating the descend effect of the tax, high logistics cost, inter-state tax. Delivering competitive as GST will address the descending effect of the tax, high log benefits, inter-state tax to the businessman and consumer.</p>
+                </div>
+            </div>
+            <div class="col-12 mb-4">
+                <div class="step-card">
+                    <div class="step-number">Increase in Revenue</div>
+                    <p>Under the GST system, 17 indirect taxes have been supplanted into a solitary tax. The expansion in product request means higher tax revenue for state and central government.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Registration Process End -->
+
+    <!-- Include other sections as needed -->
+
+    <!-- Footer Start -->
+    <!-- Add your footer content here -->
+    <!-- Footer End -->
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

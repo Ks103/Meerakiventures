@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>MV</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="startup" name="keywords">
+    <meta content="startup" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Custom Stylesheet -->
+    <style>
+        .custom-heading {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        .card {
+            border-radius: 15px; /* Rounded corners */
+            transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s, color 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.02); /* Less hover scale */
+            background-color: #add8e6; /* Light blue color */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            color: black; /* Change text color to black on hover */
+        }
+        .card:hover .card-text {
+            color: black; /* Change text color to black on hover */
+        }
+        .step-card {
+            background-color: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 15px; /* Rounded corners */
+            padding: 1rem;
+            margin-bottom: 1rem;
+            transition: background-color 0.3s, transform 0.3s, color 0.3s;
+        }
+        .step-card:nth-child(odd) {
+            background-color: #e9ecef; /* Different color for odd steps */
+        }
+        .step-card:hover {
+            background-color: #add8e6; /* Light blue color */
+            color: black; /* Change text color to black on hover */
+            transform: scale(1.02); /* Less hover scale */
+        }
+        .step-card:hover .step-number {
+            color: black; /* Change step number color to black on hover */
+        }
+        .step-number {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+        .content-section {
+            padding: 3rem 0;
+            background-color: #f8f9fa;
+        }
+        .content-section h2 {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+        .content-section p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+        .service-card {
+            background-color: #ffffff;
+            border: 1px solid #dee2e6;
+            border-radius: 15px;
+            padding: 1.5rem;
+            text-align: center;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .service-card:hover {
+            background-color: #add8e6;
+            transform: scale(1.02);
+        }
+        .service-card h3 {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+        .service-card p {
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
+            <a href="index.html" class="navbar-brand p-0">
+                <h1 class="m-0"><img class="" src="img/Frame 2.png" alt="Image" style="width: 70px;">Meraakiventures</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="index.html" class="nav-item nav-link">Services</a>
+                    <a href="about.html" class="nav-item nav-link active">Registration</a>
+                    <a href="service.html" class="nav-item nav-link">Compliance</a>
+                    <a href="team.html" class="nav-item nav-link">About Us</a>
+                    <a href="testimonial.html" class="nav-item nav-link">Testimonial</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 90px;">
+            <div class="row py-5">
+                <div class="col-12 pt-lg-5 mt-lg-5 text-center">
+                    <h1 class="display-4 text-white animated zoomIn">Trademark Registration</h1>
+                    <a href="about.html" class="h5 text-white">Registration</a>
+                    <i class="far fa-circle text-white px-2"></i>
+                    <a href="service.html" class="h5 text-white">Trademark Registration</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+    
+
+    <!-- Our Services Start -->
+    <div class="container py-5">
+        <h2 class="mb-4 custom-heading">Our Services</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="service-card">
+                    <h3>Consultation</h3>
+                    <p>Providing expert advice and guidance for your business needs.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="service-card">
+                    <h3>Application Preparation</h3>
+                    <p>Assisting with the preparation of all necessary documents and applications.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="service-card">
+                    <h3>Name Search & Approval</h3>
+                    <p>Helping you search for and secure the perfect name for your business.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="service-card">
+                    <h3>Application Filing</h3>
+                    <p>Filing your applications accurately and efficiently.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="service-card">
+                    <h3>Same Day Filing</h3>
+                    <p>Offering expedited filing services to meet your urgent needs.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="service-card">
+                    <h3>Government Fees</h3>
+                    <p>Managing and processing all government fees on your behalf.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Our Services End -->
+
+    <!-- Trademark Registration Process Start -->
+    <div class="container py-5">
+        <h2 class="mb-4 custom-heading">Steps to filing a trademark application</h2>
+        <div class="row">
+            <div class="col-12 mb-4">
+                <div class="step-card">
+                    <div class="step-number">Step 1: Conduct trademark search (one day)</div>
+                    <p>On behalf of its clients, LegalRaasta makes sure that they have searched and determined whether a trademark or a brand registration name is available or whether it’s registered under a different class.</p>
+                </div>
+            </div>
+            <div class="col-12 mb-4">
+                <div class="step-card">
+                    <div class="step-number">Step 2: Create a trademark application (one day)</div>
+                    <p>After we verify that the name or the design you have chosen is available and unique, we will send you an authorization letter that should be signed correctly according to your specifications and must be returned to us. Our lawyers are given permission by these letters to apply for trademarks on your behalf.</p>
+                </div>
+            </div>
+            <div class="col-12 mb-4">
+                <div class="step-card">
+                    <div class="step-number">Step 3: Trademark application submission takes one day</div>
+                    <p>As soon as we get the authorization letter, you can start using TM sign immediately, provided that all the details are filled in as they should be; this way our lawyers will file trademark registration for you respectively. From our side, you will be assigned a number of the TM application. The trademark application is submitted via the internet or directly at central trademark offices using a lawyer who holds a certificate which allows him/her to register trademarks online only.</p>
+                </div>
+            </div>
+            <div class="col-12 mb-4">
+                <div class="step-card">
+                    <div class="step-number">Step 4: Register the trademark (this will take 1.5 years)</div>
+                    <p>Once you have submitted your application form, the office will examine it. For example, if your name is deemed to be rude or offensive, then there may be an objection from the government as well; comparing our trademark with another one in the same class may cause problems regarding religious feelings as well. Therefore, in case no objections are raised against it, the trademark registrar shall publish its advertisement in the trademark act journal. If there is no opposition from any side within four months’ time, then a trademark must be registered during the following six months’ period without fail. During this period we inform you about progress made on your application. With respect to such objections additional fee implies himself under his own conditions also.</p>
+                </div>
+            </div>
+            <div class="col-12 mb-4">
+                <div class="step-card">
+                    <div class="step-number">Step 6: Hearing before Registrar</div>
+                    <p>Concerning your trademark, if the opposition does not ascertain with your response after an object has been filed, then a hearing before the registrar will be held. We hire lawyers at an extra cost who litigate on your behalf in front of the registrar.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Trademark Registration Process End -->
+
+    <!-- Include other sections as needed -->
+
+    <!-- Footer Start -->
+    <!-- Add your footer content here -->
+    <!-- Footer End -->
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
